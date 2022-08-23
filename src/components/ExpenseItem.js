@@ -6,7 +6,7 @@ function ExpenseItem() {
   const expenseAmount = 80000;
   return (
     <div className="expense-item">
-      <div>{expenseDatetoISOString()}</div>
+      <div>{expenseDate.toISOString()}</div>
       <div className="expense-item__description">
         <h2>{expenseItem}</h2>
         <div className="expense-item__price">{expenseAmount}Ft</div>
